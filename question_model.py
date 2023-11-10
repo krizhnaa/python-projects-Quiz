@@ -4,5 +4,3 @@ class Question:
         self.text = text
         self.answer = answer
 
-new_q = Question("first question", "True")
-print(new_q.text, new_q.answer)
