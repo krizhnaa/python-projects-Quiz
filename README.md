@@ -4,3 +4,4 @@
 
 # <1> Creating Questions class in question_model file 
 # <2> Creating Question bank in main.py
+# <3> Creating a class called in Quiz_brain in quiz_brain file 
