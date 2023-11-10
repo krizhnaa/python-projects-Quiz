@@ -1,3 +1,5 @@
 // Python project to implement Quiz program using OOP's Concept.'
 
-# Creating Questions class in question_model file 
+# The Flow of program creation:
+
+# <1> Creating Questions class in question_model file 
