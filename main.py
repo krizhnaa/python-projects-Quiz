@@ -3,8 +3,11 @@ from data import question_data
 
 question_bank = []
 
-for item in question_data:
-    question_bank.append(Question(item['text'], item['answer']))
+for question in question_data:
+    qtext = question['text']
+    qans = question['answer']
+    new_question = Question(qtext, qans)
+    question_bank.append(new_question)
 
-print(question_bank[11].text)
+print(question_bank[10].text)
 
