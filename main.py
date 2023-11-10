@@ -9,5 +9,4 @@ for question in question_data:
     new_question = Question(qtext, qans)
     question_bank.append(new_question)
 
-print(question_bank[10].text)
 
