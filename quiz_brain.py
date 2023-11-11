@@ -19,8 +19,10 @@ class Quizbrain:
     def check_answer(self, user_ans, correct_ans):
         if user_ans == correct_ans.lower():
             self.score+=1
-            print(f"Correct Answer and Your Score is {self.score}")
+            print(f"Correct Answer")
         else:
             print("Wrong")
+        print(f"The correct answer was {correct_ans}")
+        print(f"You current score is {self.score}/{self.question_number}")
 
 
