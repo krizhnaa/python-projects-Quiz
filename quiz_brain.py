@@ -6,10 +6,7 @@ class Quizbrain:
 
     def still_has_questions(self):
         index_lquest = len(self.question_list)
-        if self.question_number >= index_lquest:
-            return False
-        else:
-            return True
+        return self.question_number >= index_lquest
 
     def next_question(self):
         current_question = self.question_list[self.question_number].text
