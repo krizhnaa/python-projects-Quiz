@@ -4,9 +4,9 @@ from quiz_brain import Quizbrain
 
 question_bank = []
 
-for question in question_data:
-    qtext = question['text']
-    qans = question['answer']
+for question in question_data[0]['results']:
+    qtext = question['question']
+    qans = question['correct_answer']
     new_question = Question(qtext, qans)
     question_bank.append(new_question)
 
